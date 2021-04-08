@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/peardb?useSSL=false&serverTimezone=UTC"
+    password: root
+    username: root
+    initialization-mode: always
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  devtools:
+    add-properties: true
