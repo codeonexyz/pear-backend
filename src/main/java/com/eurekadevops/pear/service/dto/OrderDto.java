@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -26,6 +27,7 @@ public class OrderDto {
     private String otherDetails;
     
     @NotNull
+    @NotEmpty
     @Size(max = 255)
     private String orderType;
     
