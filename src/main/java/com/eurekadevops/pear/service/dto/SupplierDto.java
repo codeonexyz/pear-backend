@@ -15,18 +15,18 @@ public class SupplierDto {
 
     private Long id;
 
-    @NotNull 
+    @NotNull
     @NotEmpty
     @Size(max = 255)
     private String name;
     
-    @NotNull 
-    @NotEmpty
+    @NotNull
+    @NotEmpty 
     @Size(max = 255)
     private String address;
     
-    @NotNull 
-    @NotEmpty
+    @NotNull
+    @NotEmpty 
     @Size(max = 16)
     private String phone;
 

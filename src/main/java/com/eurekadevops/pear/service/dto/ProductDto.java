@@ -19,23 +19,20 @@ public class ProductDto {
     @Size(max = 255)
     private String name;
     
-    @NotEmpty
     @Size(max = 255)
     private String description;
     
+    @NotNull
     @NotEmpty
     @Size(max = 255)
     private String unit;
     
-    @NotEmpty
     @NotNull
     private Integer quantity;
     
-    @NotEmpty
     @NotNull
     private Double price;
     
-    @NotEmpty
     @NotNull
     private Integer status;
     

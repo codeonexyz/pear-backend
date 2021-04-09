@@ -22,7 +22,6 @@ public class OrderDto {
     @Temporal(TemporalType.DATE)
     private Date orderDate;
     
-    @NotNull
     @Size(max = 255)
     private String otherDetails;
     
